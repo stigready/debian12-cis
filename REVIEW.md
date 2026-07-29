@@ -1,4 +1,4 @@
-# Review package — `debian12_cis` v0.2.3-private-review
+# Review package — `debian12_cis` v0.2.4-private-review
 
 Product owner review (Phase B/C pilot). **Not** a StigApplied cutover signal.
 
@@ -6,14 +6,14 @@ Product owner review (Phase B/C pilot). **Not** a StigApplied cutover signal.
 
 ### Profile `cis-l1`
 - **Score:** 92.09% (floor 90.0%) · gate **PASS**
-- **Evidence tested:** 20260729T082623Z
-- [evidence.json](compliance/releases/0.2.3-private-review/cis-l1/evidence.json) · [evidence-report.html](compliance/releases/0.2.3-private-review/cis-l1/evidence-report.html)
-- [score.json](compliance/releases/0.2.3-private-review/cis-l1/score.json) · [report.html](compliance/releases/0.2.3-private-review/cis-l1/report.html) · [poam.md](compliance/releases/0.2.3-private-review/cis-l1/poam.md)
+- **Evidence tested:** 20260729T100609Z
+- [evidence.json](compliance/releases/0.2.4-private-review/cis-l1/evidence.json) · [evidence-report.html](compliance/releases/0.2.4-private-review/cis-l1/evidence-report.html)
+- [score.json](compliance/releases/0.2.4-private-review/cis-l1/score.json) · [report.html](compliance/releases/0.2.4-private-review/cis-l1/report.html) · [poam.md](compliance/releases/0.2.4-private-review/cis-l1/poam.md)
 
 ### Profile `cis-l2`
 - **Score:** 91.21% (floor 90.0%) · gate **PASS**
-- **Evidence tested:** 20260729T082846Z
-- [evidence.json](compliance/releases/0.2.3-private-review/cis-l2/evidence.json) · [evidence-report.html](compliance/releases/0.2.3-private-review/cis-l2/evidence-report.html)
-- [score.json](compliance/releases/0.2.3-private-review/cis-l2/score.json) · [report.html](compliance/releases/0.2.3-private-review/cis-l2/report.html) · [poam.md](compliance/releases/0.2.3-private-review/cis-l2/poam.md)
+- **Evidence tested:** 20260729T100830Z
+- [evidence.json](compliance/releases/0.2.4-private-review/cis-l2/evidence.json) · [evidence-report.html](compliance/releases/0.2.4-private-review/cis-l2/evidence-report.html)
+- [score.json](compliance/releases/0.2.4-private-review/cis-l2/score.json) · [report.html](compliance/releases/0.2.4-private-review/cis-l2/report.html) · [poam.md](compliance/releases/0.2.4-private-review/cis-l2/poam.md)
 
-- CI pipeline: https://github.com/stigready/stigforge/actions/runs/30435216810
+- CI pipeline: https://github.com/stigready/stigforge/actions/runs/30440754045

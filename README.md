@@ -2,7 +2,7 @@
 
 **Ansible hardening role** for **Debian 12** (CIS Benchmark). Suitable for playbooks, Packer/Ansible provisioners, and golden-image pipelines. Search keywords: `ansible`, `ansible-role`, `bookworm`, `cis`, `cis-benchmark`, `cis-hardening`, `compliance`, `debian`, `debian12`, `devsecops`, `hardening`, `infrastructure`, `openscap`, `security`.
 
-StigForge-exported Ansible role **`debian12_cis`** · release **`0.2.3-private-review`**.
+StigForge-exported Ansible role **`debian12_cis`** · release **`0.2.4-private-review`**.
 Matrix cell status: **`green`**.
 
 ## Install (Ansible Galaxy)
@@ -13,7 +13,7 @@ lives under `compliance/` and is not loaded when the role runs.
 From **Ansible Galaxy** (after import; namespace `stigready`):
 
 ```bash
-ansible-galaxy role install stigready.debian12_cis,0.2.3-private-review
+ansible-galaxy role install stigready.debian12_cis,0.2.4-private-review
 ```
 
 From **GitHub** (public):
@@ -23,7 +23,7 @@ From **GitHub** (public):
 roles:
   - src: https://github.com/stigready/debian12-cis
     scm: git
-    version: v0.2.3-private-review   # or an immutable commit SHA
+    version: v0.2.4-private-review   # or an immutable commit SHA
     name: debian12_cis
 ```
 
@@ -38,10 +38,10 @@ Evidence was produced by **docker verify + OpenSCAP** on the factory CI run cite
 
 | Profile | Score | Floor | Gate | Ansible | Evidence tested (UTC) |
 |---|---:|---:|---|---|---|
-| `cis-l1` | **92.09%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T082623Z |
-| `cis-l2` | **91.21%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T082846Z |
+| `cis-l1` | **92.09%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T100609Z |
+| `cis-l2` | **91.21%** ✓ | 90.0% | PASS ✓ | rc 0 | 20260729T100830Z |
 
-Full artifacts per profile: `compliance/releases/0.2.3-private-review/<profile>/` (`score.json`, `results.xml`, `report.html`, `evidence.json`, `evidence-report.html`, `poam.md`).
+Full artifacts per profile: `compliance/releases/0.2.4-private-review/<profile>/` (`score.json`, `results.xml`, `report.html`, `evidence.json`, `evidence-report.html`, `poam.md`).
 
 ## Reports & review
 
@@ -54,7 +54,7 @@ Full artifacts per profile: `compliance/releases/0.2.3-private-review/<profile>/
 Re-run OpenSCAP in Docker and compare to this release's evidence:
 
 ```bash
-make prove RELEASE=0.2.3-private-review
+make prove RELEASE=0.2.4-private-review
 ```
 
 Or score your own `results.xml`: see **[compliance/README.md](compliance/README.md)**.
@@ -66,7 +66,7 @@ Or score your own `results.xml`: see **[compliance/README.md](compliance/README.
 
 ## Factory
 
-- Monorepo: [stigready/stigforge](https://github.com/stigready/stigforge) @ `e8e323a3af3258bee63ebc1a873ba26c0cc12049`
-- CI run: https://github.com/stigready/stigforge/actions/runs/30435216810
+- Monorepo: [stigready/stigforge](https://github.com/stigready/stigforge) @ `c481b47d629f5bc2357a86a933aa6f94f5245fce`
+- CI run: https://github.com/stigready/stigforge/actions/runs/30440754045
 - Catalog: [https://stigready.com/#stigforge](https://stigready.com/#stigforge)
 

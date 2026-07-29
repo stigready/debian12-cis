@@ -2,6 +2,25 @@
 
 Format based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.2.4-private-review] - 2026-07-29
+
+### Changed
+- StigForge export refresh for `debian12_cis` at `0.2.4-private-review`.
+
+### Verified (OpenSCAP)
+
+- **`cis-l1`** — score **92.09%** (floor 90.0%) · gate **PASS** · evidence `20260729T100609Z`
+  - Remaining counted failures: `account_disable_post_pw_expiration, accounts_password_pam_pwhistory_enabled, accounts_password_pam_pwhistory_enforce_root, accounts_password_pam_pwhistory_remember, accounts_password_pam_pwhistory_use_authtok, accounts_passwords_pam_faillock_deny, accounts_passwords_pam_faillock_enabled, accounts_passwords_pam_faillock_unlock_time`
+  - _(+6 more — see `score.json`)_
+- **`cis-l2`** — score **91.21%** (floor 90.0%) · gate **PASS** · evidence `20260729T100830Z`
+  - Remaining counted failures: `account_disable_post_pw_expiration, accounts_minimum_age_login_defs, accounts_password_pam_pwhistory_enabled, accounts_password_pam_pwhistory_enforce_root, accounts_password_pam_pwhistory_remember, accounts_password_pam_pwhistory_use_authtok, accounts_passwords_pam_faillock_deny, accounts_passwords_pam_faillock_enabled`
+  - _(+8 more — see `score.json`)_
+
+### Provenance
+
+- Factory pipeline: https://github.com/stigready/stigforge/actions/runs/30440754045
+- Factory commit: `c481b47d629f5bc2357a86a933aa6f94f5245fce`
+
 ## [0.2.3-private-review] - 2026-07-29
 
 ### Added
