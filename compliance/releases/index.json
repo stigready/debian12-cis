@@ -1,0 +1,7 @@
+[
+  {
+    "version": "0.2.3-private-review",
+    "role": "debian12_cis",
+    "matrix_status": "green"
+  }
+]

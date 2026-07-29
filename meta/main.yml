@@ -1,0 +1,33 @@
+galaxy_info:
+  role_name: debian12_cis
+  namespace: stigready
+  description: Ansible role for Debian 12 CIS Benchmark hardening (cis-l1, cis-l2).
+    ComplianceAsCode/SSG remediation, OpenSCAP-verified in StigForge CI. Install with
+    ansible-galaxy or git.
+  license: BSD-3-Clause
+  min_ansible_version: '2.16'
+  platforms:
+  - name: Debian
+    versions:
+    - bookworm
+  author: stigready
+  company: StigReady
+  galaxy_tags:
+  - ansible
+  - ansible-role
+  - bookworm
+  - cis
+  - cis-benchmark
+  - cis-hardening
+  - compliance
+  - debian
+  - debian12
+  - devsecops
+  - hardening
+  - infrastructure
+  - openscap
+  - security
+  - stigforge
+  github_branch: main
+  issue_tracker_url: https://github.com/stigready/debian12-cis/issues
+dependencies: []
