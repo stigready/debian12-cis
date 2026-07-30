@@ -1,0 +1,26 @@
+{
+  "pass": 172,
+  "fail": 10,
+  "other": 1,
+  "total_scored": 182,
+  "score": 94.51,
+  "min_score": 90.0,
+  "meets_floor": true,
+  "gate_pass": true,
+  "enforce": true,
+  "failures": [
+    "accounts_password_pam_pwhistory_remember",
+    "accounts_passwords_pam_faillock_deny",
+    "accounts_passwords_pam_faillock_enabled",
+    "accounts_passwords_pam_faillock_root_unlock_time",
+    "accounts_passwords_pam_faillock_unlock_time",
+    "ensure_pam_wheel_group_empty",
+    "package_pam_modules_installed",
+    "package_pam_runtime_installed",
+    "set_password_hashing_algorithm_logindefs",
+    "use_pam_wheel_group_for_su"
+  ],
+  "regressions": [],
+  "baseline": null,
+  "openscap_line": "OpenSCAP: pass=172 fail=10 score=94.5% (target 90%)"
+}

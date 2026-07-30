@@ -2,6 +2,25 @@
 
 Format based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.2.4] - 2026-07-30
+
+### Changed
+- StigForge export refresh for `debian12_cis` at `0.2.4`.
+
+### Verified (OpenSCAP)
+
+- **`cis-l1`** — score **94.92%** (floor 90.0%) · gate **PASS** · evidence `20260729T223616Z`
+  - Remaining counted failures: `accounts_password_pam_pwhistory_remember, accounts_passwords_pam_faillock_deny, accounts_passwords_pam_faillock_enabled, accounts_passwords_pam_faillock_unlock_time, ensure_pam_wheel_group_empty, package_pam_modules_installed, package_pam_runtime_installed, set_password_hashing_algorithm_logindefs`
+  - _(+1 more — see `score.json`)_
+- **`cis-l2`** — score **94.51%** (floor 90.0%) · gate **PASS** · evidence `20260729T223833Z`
+  - Remaining counted failures: `accounts_password_pam_pwhistory_remember, accounts_passwords_pam_faillock_deny, accounts_passwords_pam_faillock_enabled, accounts_passwords_pam_faillock_root_unlock_time, accounts_passwords_pam_faillock_unlock_time, ensure_pam_wheel_group_empty, package_pam_modules_installed, package_pam_runtime_installed`
+  - _(+2 more — see `score.json`)_
+
+### Provenance
+
+- Factory pipeline: https://github.com/stigready/stigforge/actions/runs/30496236357
+- Factory commit: `7f7cafc85a392bf2a7eb04f1b979185dbcdf5530`
+
 ## [0.2.4-private-review] - 2026-07-29
 
 ### Changed
