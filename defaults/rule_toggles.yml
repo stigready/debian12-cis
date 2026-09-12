@@ -89,6 +89,7 @@ debian12cis_banner_etc_issue_cis: true
 debian12cis_banner_etc_issue_net_cis: true
 debian12cis_banner_etc_motd_cis: true
 debian12cis_chronyd_configure_pool_and_server: true
+debian12cis_directory_permissions_var_log_audit: true
 debian12cis_disable_host_auth: true
 debian12cis_disable_users_coredumps: true
 debian12cis_ensure_pam_wheel_group_empty: true
@@ -181,6 +182,7 @@ debian12cis_file_ownerships_var_log_gdm: true
 debian12cis_file_ownerships_var_log_gdm3: true
 debian12cis_file_ownerships_var_log_landscape: true
 debian12cis_file_ownerships_var_log_sssd: true
+debian12cis_file_permission_user_bash_history: true
 debian12cis_file_permission_user_init_files: true
 debian12cis_file_permissions_at_allow: true
 debian12cis_file_permissions_at_deny: true
@@ -216,6 +218,7 @@ debian12cis_file_permissions_sshd_private_key: true
 debian12cis_file_permissions_sshd_pub_key: true
 debian12cis_file_permissions_ungroupowned: true
 debian12cis_file_permissions_var_log_apt: true
+debian12cis_file_permissions_var_log_audit: true
 debian12cis_file_permissions_var_log_auth: true
 debian12cis_file_permissions_var_log_gdm: true
 debian12cis_file_permissions_var_log_gdm3: true

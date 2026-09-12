@@ -52,8 +52,9 @@ var_nftables_base_chain_types: filter,filter,filter
 var_nftables_base_chain_hooks: input,forward,output
 var_nftables_base_chain_priorities: 0,0,0
 var_nftables_base_chain_policies: accept,accept,accept
-var_multiple_time_servers: 0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org 3.debian.pool.ntp.org
-var_multiple_time_pools: 0.debian.pool.ntp.org 1.debian.pool.ntp.org 2.debian.pool.ntp.org 3.debian.pool.ntp.org
+var_timesync_service: systemd-timesyncd
+var_multiple_time_servers: 0.debian.pool.ntp.org,1.debian.pool.ntp.org,2.debian.pool.ntp.org,3.debian.pool.ntp.org
+var_multiple_time_pools: 0.debian.pool.ntp.org,1.debian.pool.ntp.org,2.debian.pool.ntp.org,3.debian.pool.ntp.org
 var_sshd_set_keepalive: '3'
 sshd_idle_timeout_value: '300'
 var_sshd_set_login_grace_time: '60'
@@ -63,4 +64,5 @@ var_sshd_set_maxstartups: 10:30:60
 sshd_strong_kex: sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256
 sshd_strong_macs: hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256
 var_accounts_minimum_age_login_defs: '1'
+var_audit_backlog_limit: '8192'
 var_accounts_passwords_pam_faillock_dir: /var/run/faillock
