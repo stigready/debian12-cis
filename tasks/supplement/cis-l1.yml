@@ -1,4 +1,4 @@
-# StigForge supplements for Debian 12 CIS — not overwritten by `stigforge generate`.
+# StigForge supplements for Debian 12 CIS - not overwritten by `stigforge generate`.
 # Debian PAM/login.defs gaps in docker verify (aligned with ubuntu24_cis supplement patterns).
 
 - name: StigForge supplement - set PASS_MAX_DAYS in /etc/login.defs (accounts_maximum_age_login_defs)
