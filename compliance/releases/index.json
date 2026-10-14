@@ -1,6 +1,6 @@
 [
   {
-    "version": "0.3.14",
+    "version": "0.3.15",
     "role": "debian12_cis",
     "matrix_status": "green"
   }
