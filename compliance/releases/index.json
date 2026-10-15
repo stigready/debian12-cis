@@ -38,5 +38,10 @@
     "version": "0.3.29",
     "role": "debian12_cis",
     "matrix_status": "green"
+  },
+  {
+    "version": "0.3.30",
+    "role": "debian12_cis",
+    "matrix_status": "green"
   }
 ]
