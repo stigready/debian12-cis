@@ -103,5 +103,10 @@
     "version": "0.3.42",
     "role": "debian12_cis",
     "matrix_status": "green"
+  },
+  {
+    "version": "0.3.43",
+    "role": "debian12_cis",
+    "matrix_status": "green"
   }
 ]
