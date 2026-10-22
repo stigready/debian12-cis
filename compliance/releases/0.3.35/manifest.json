@@ -1,11 +1,9 @@
 {
   "role": "debian12_cis",
   "version": "0.3.35",
-  "factory_repo": "stigready/stigforge",
   "matrix_status": "green",
-  "pipeline_run_id": "39043246080",
   "factory_commit": "740f061c249b87ad1f7a249a92127dfa8a0ee215",
   "content_digest": "f99c42fdec595f53bed46f0d9b50f8ff063bd52e4e890a0d6ab9599024d24375",
   "container_verify": "removed-0017",
-  "compliance_evidence": "Not produced here. Container verify was removed by decision 0017 because a container cannot evaluate most STIG rules; compliance evidence for this role comes from the AMI build that consumes it in stigready/stigready."
+  "compliance_evidence": "Not produced here. Container verify was removed because a container cannot evaluate most STIG rules; compliance evidence for this role comes from the AMI build that consumes it in the StigReady image factory."
 }

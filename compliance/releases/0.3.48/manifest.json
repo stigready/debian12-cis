@@ -1,0 +1,9 @@
+{
+  "role": "debian12_cis",
+  "version": "0.3.48",
+  "matrix_status": "green",
+  "factory_commit": "055cf3a4a0bb0069f7b8dfc298fc7075514fb561",
+  "content_digest": "3951ea4ac4685058e52366a24b495707552f3b262ecba0760d8fde1fe1f17d67",
+  "container_verify": "removed-0017",
+  "compliance_evidence": "Not produced here. Container verify was removed because a container cannot evaluate most STIG rules; compliance evidence for this role comes from the StigReady AMI build that consumes it."
+}
